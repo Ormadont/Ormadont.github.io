@@ -1,9 +1,29 @@
 h1 {
-  background-color: black;
-  color: white;
+  background-color: lightgray;
   text-align: center;
 }
 
-h3 {
-  background-color: #d9d8d8;
+li a, h1 a {
+  text-decoration: none;
+  color: black;
+}
+
+li:hover {
+  background-color: lightgrey;
+  font-weight: bold;
+}
+
+li a:hover {
+}
+
+ol {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 200px;
+}
+
+ol li {
+  width: 200px;
+  margin-bottom: 10px;
 }
