@@ -1,5 +1,10 @@
-@media only screen and (min-width: 1080px) {
-
+@media only screen and (max-width: 1080px) {
+  body {
+    background-color: #fff4e6;;
+  }
+  a.btn {
+    margin-bottom: 20px;
+  }
 }
 
 nav {
@@ -14,33 +19,37 @@ h1 {
 a {
   text-decoration: none;
   color: black;
+  font-size: 1.3rem;
 }
 
-li:hover {
+.btn:hover {
   background-color: lightgreen;
   color: darkblue;
   font-weight: bolder;
   transition-property: all;
   transition-duration: 0.3s;
   text-decoration: underline;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
 }
 
-a:hover {
 
-}
-
-li {
+.btn{
   margin: 5px 15px;
   background-color: #fff4e6;
   border: 2px solid #f76707;
+  border-radius: 0.5rem;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-ol {
+nav {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-auto-rows: 50px;
+  grid-auto-rows: minmax(70px, auto);
+}
+
+.about {
+  display: grid;
+  padding: 5rem;
 }
