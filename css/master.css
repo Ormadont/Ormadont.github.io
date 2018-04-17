@@ -14,16 +14,28 @@ nav {
 h1 {
   background-color: lightgreen;
   text-align: center;
+  font-size: 2rem;
+  padding: 1rem;
 }
 
-a {
+h1 a:hover{
+  color: #f76707;
+  transition: color 0.7s;
+}
+
+a.btn, a {
   text-decoration: none;
   color: black;
-  font-size: 1.3rem;
+  font-weight: bold;
+}
+a.btn {
+  font-size: 1.1rem;
+  text-shadow: grey 4px 0 5px;
 }
 
 .btn:hover {
-  background-color: lightgreen;
+  background-color: #fff4e6;
+  border: 3px solid #f76707;
   color: darkblue;
   font-weight: bolder;
   transition-property: all;
@@ -35,8 +47,10 @@ a {
 
 .btn{
   margin: 5px 15px;
-  background-color: #fff4e6;
-  border: 2px solid #f76707;
+  background-color: lightgreen;
+  border: 2px solid green;
+  /* background-color: #fff4e6;
+  border: 2px solid #f76707; */
   border-radius: 0.5rem;
   display: flex;
   justify-content: center;
@@ -51,5 +65,6 @@ nav {
 
 .about {
   display: grid;
-  padding: 5rem;
+  padding-top: 1rem;
+  padding-left: 6rem;
 }
