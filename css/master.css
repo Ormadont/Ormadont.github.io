@@ -1,37 +1,71 @@
-@media only screen and (min-width: 1080px) {
-  html {
-    font-size: 30px;
+@media only screen and (max-width: 1080px) {
+  body {
+    background-color: #fff4e6;;
   }
+  a.btn {
+    margin-bottom: 20px;
+  }
+}
+
+nav {
+  padding: 1rem 5rem;
 }
 
 h1 {
   background-color: lightgreen;
   text-align: center;
+  font-size: 2rem;
+  padding: 1rem;
 }
 
-a {
+h1 a:hover{
+  color: #f76707;
+  transition: color 0.7s;
+}
+
+a.btn, a {
   text-decoration: none;
   color: black;
+  /* font-weight: bold; */
+}
+a.btn {
+  font-size: 1.2rem;
+
 }
 
-li:hover {
+.btn:hover {
+  background-color: #fff4e6;
+  border: 3px solid #f76707;
+  /* color: darkblue; */
+  font-weight: bolder;
+  transition-property: all;
+  transition-duration: 0.3s;
+  text-decoration: underline;
+  font-size: 1.5rem;
+  text-shadow: grey 4px 0 5px;
+}
+
+
+.btn{
+  margin: 5px 15px;
   background-color: lightgreen;
-  font-weight: bold;
-}
-
-a:hover {
-  color: darkblue;
-}
-
-
-ol {
+  border: 2px solid green;
+  /* background-color: #fff4e6;
+  border: 2px solid #f76707; */
+  border-radius: 0.5rem;
   display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  height: 200px;
+  justify-content: center;
+  align-items: center;
 }
 
-li {
-  width: 300px;
-  margin-bottom: 10px;
+nav {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-rows: minmax(70px, auto);
+}
+
+.about {
+  display: grid;
+  padding-top: 1rem;
+  padding-left: 6rem;
 }
