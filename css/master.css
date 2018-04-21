@@ -7,6 +7,10 @@
   }
 }
 
+body {
+  color: hsla(26, 36%, 14%, 0.86);
+}
+
 nav {
   padding: 1rem 5rem;
 }
@@ -25,7 +29,7 @@ h1 a:hover{
 
 a.btn, a {
   text-decoration: none;
-  color: black;
+  color: inherit;
   font-weight: bold;
 }
 a.btn {
