@@ -1,18 +1,20 @@
 @media only screen and (max-width: 1080px) {
-  body {
-    background-color: #fff4e6;;
-  }
   a.btn {
     margin-bottom: 20px;
+    font-size: 1rem;
+  }
+  .btn:hover {
+    font-size: 1.2rem;
   }
 }
 
 body {
+  background-color: #fff4e6;
   color: hsla(26, 36%, 14%, 0.86);
 }
 
 nav {
-  padding: 1rem 5rem;
+  padding: 1rem 2rem;
 }
 
 h1 {
@@ -27,30 +29,30 @@ h1 a:hover{
   transition: color 0.7s;
 }
 
-a.btn, a {
+nav a, a {
   text-decoration: none;
   color: inherit;
   font-weight: bold;
 }
-a.btn {
+nav a {
   font-size: 1.2rem;
 
 }
 
-.btn:hover {
+nav a:hover {
   background-color: #fff4e6;
   border: 3px solid #f76707;
   color: darkgreen;
   font-weight: bolder;
   transition-property: all;
   transition-duration: 0.25s;
-  font-size: 1.7rem;
+  font-size: 1.5rem;
   text-shadow: grey 4px 0 5px;
   box-shadow: 0 0 black;
 }
 
 
-.btn{
+nav a{
   margin: 5px 15px;
   background-color: lightgreen;
   border: 2px solid green;
